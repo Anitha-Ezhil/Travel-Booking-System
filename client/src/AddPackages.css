@@ -1,0 +1,77 @@
+.add-packages-page {
+    padding: 20px;
+    background-color: #e9e2e2;
+  }
+  
+  .packages-form-container {
+    margin-bottom: 20px;
+  }
+  
+  .packages-form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .packages-form-container .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .packages-form-container .form-group label {
+    margin-bottom: 5px;
+  }
+  
+  .packages-form-container .form-group input,
+  .packages-form-container .form-group select {
+    padding: 5px;
+    font-size: 1em;
+  }
+  
+  .packages-form-container form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .packages-form-container form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .packages-table {
+    margin-top: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .packages-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .packages-table th, .packages-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .packages-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .packages-table button {
+    padding: 5px 10px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .packages-table button:hover {
+    background-color: #cc0000;
+  }
+  

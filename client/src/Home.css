@@ -1,0 +1,268 @@
+/* Existing Styles */
+
+.home-container {
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #342828;
+}
+
+.navbar-left a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.navbar-right a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.home-background {
+  background-image: url('back.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.home-content h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.home-content p {
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  text-align: left;
+}
+
+.explore-button {
+  padding: 8px;
+  font-size: 16px;
+  width: 30%;
+  background-color: rgb(108, 71, 47);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.explore-button:hover {
+  background-color: rgb(34, 66, 67);
+}
+
+.search-section {
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-container {
+  display: flex;
+  gap: 10px;
+}
+
+.search-input {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.search-button {
+  padding: 10px;
+  width: 120px;
+  height: 50px;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.search-button:hover {
+  background-color: darkorange;
+}
+
+.popular-destinations {
+  padding: 40px 20px;
+  background-color: #fff;
+}
+
+.popular-destinations h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.destinations-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.destination-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.destination-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.destination-card h3 {
+  font-size: 24px;
+  margin: 15px 0;
+}
+
+.destination-card p {
+  font-size: 16px;
+  color: #666;
+}
+
+.why-choose-us {
+  padding: 40px 20px;
+  background-color:#f2f2f2;
+}
+
+.why-choose-us h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 5px;
+}
+
+.why-choose-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.why-choose-text {
+  flex: 1;
+  max-width: 600px;
+  margin-left: 80px;
+  margin-bottom: 80px;
+}
+
+.why-choose-item {
+  margin-bottom: 20px;
+}
+
+.why-choose-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.why-choose-item p {
+  font-size: 16px;
+  color: #666;
+}
+
+.why-choose-images {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-left: 60px;
+  margin-bottom: 70px;
+}
+
+.why-choose-image {
+  width: 30%;
+  border-radius: 28px;
+}
+
+/* Footer Styles */
+
+footer {
+  background-color: #f9f9f9;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.footer-column {
+  flex: 1;
+  padding: 10px;
+}
+
+.footer-logo {
+  max-width: 150px;
+  margin-bottom: 10px;
+}
+
+.footer-column h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.footer-column p,
+.footer-column ul {
+  color: #666;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #666;
+}
+
+.footer-column ul li a:hover {
+  color: #000;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons a img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-bottom {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: #666;
+}

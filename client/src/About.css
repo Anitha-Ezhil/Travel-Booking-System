@@ -1,0 +1,40 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #e9e2e2;
+  }
+  
+  .about-content {
+    display: flex;
+    max-width: 1200px;
+    gap: 20px;
+  }
+  
+  .about-images {
+    flex: 1;
+  }
+  
+  .about-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .about-text {
+    flex: 2;
+    text-align: left;
+  }
+  
+  .about-text h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about-text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
